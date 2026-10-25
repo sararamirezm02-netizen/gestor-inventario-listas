@@ -1,5 +1,5 @@
 # gestor-inventario-listas
-
+Para evitar registrar dos veces el mismo producto, el programa usa la función buscar_indice, que registrar_producto llama antes de agregar algo nuevo, y así revisa si el nombre ya existe sin importar las mayúsculas ni los espacios de más, de manera que si el producto ya está registrado no se agrega y se le avisa al usuario, con lo cual cada producto aparece una sola vez y los datos no se enredan.
 
 PRUEBAS 
 
